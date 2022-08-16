@@ -31,7 +31,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Welcom to my Site: elias with nature"}
+    return {"message": "Welcom to my Site"}
 
 
 
